@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+
+p {
+	color: red;
+	padding: 0px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: 100px;
+}
+
+.home{
+	height: 50px;
+	width: 200px;
+	position: relative;
+	gap: 20px;
+}
+.signup{
+	height: 30px;
+	width: 130px;
+}
+	
+.login{
+	height: 30px;
+	width: 150px;
+}
+.loginn{
+	height: 30px;
+	width: 150px;
+	position: relative;
+	top: -30px;
+	left: 75px;
+}
+.vignan:hover{
+	color: red;
+}
+.logout{
+	height: 30px;
+	width: 200px;
+	position: relative;
+	top: 50px;
+	
+}
